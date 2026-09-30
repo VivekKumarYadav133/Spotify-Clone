@@ -297,6 +297,20 @@ a {
 }
 
 
+/* for making Responsive */
+
+@media screen and (max-width: 1200px){
+    .main-content{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .sidebar{
+        position: static;
+        height: auto;
+    }
+    
+}
 
 
 
